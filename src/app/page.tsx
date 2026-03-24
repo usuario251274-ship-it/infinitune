@@ -76,7 +76,7 @@ export default function Home() {
         {/* Scroll indicator */}
         <motion.div
           animate={{ y: [0, 10, 0] }}
-          transition={{ repeat: Infinity, duration: 2 }}
+          transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2 }}
           className="absolute bottom-10"
         >
           <div className="w-6 h-10 border-2 border-gray-600 rounded-full flex justify-center">
